@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 491px;
+    border-radius: 3px;
+    margin-top: -492px;
+    position: absolute;
+}
+
+.relogio div {
+    height: 139px;
+    margin-left: 20px;
+    width: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #ffffff00;
+    box-shadow: 3px 15px 34px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 7px;
+    opacity: 0.8;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 16px;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.caixa-maior{
+    background-color: #00000000;
+    opacity: 0.8;
+    margin-left: 20px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 490px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    margin-top: -13px;
+}
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #def4fe;
+    width: calc(100% - 100px);
+}
+.button-buscar{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 50px;
+    border-radius: 20px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    color: #def4fe;
+    float: right;
+    font-size: 20px;
+    box-shadow: 3px 15px 34px rgba(0, 0, 0, .7);
+}
+.caixa-media{
+    margin-top: 6px;
+}
+.cidade{
+    color: antiquewhite;
+    font-size: 40px;
+    font-weight: 200;
+}
+.temp{
+    font-size: 20px;
+    color: antiquewhite;
+    margin-top: 9px;
+}
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    margin-top: 5px;
+}
+.clima{
+    color: antiquewhite;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.umidade{
+    color: antiquewhite;
+    margin-top: 20px;
+}
+.hidden-icon {
+    display: none;
+}
+placeholder{
+    color: #def4fe;
+}

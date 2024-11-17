@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima com Relógio</title>
+</head>
+
+<body>
+    <div class="relogio">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div>
+
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o Nome da Cidade">
+        <button class="button-buscar" onclick="pesquisa()">Buscar</button>
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em ...</h2>
+
+            <p class="temp">21°C</p>
+            <div class="caixa-menor">
+
+
+                <img class="icone-do-tempo" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="clima">Nublado</p>
+            </div>
+
+            <p class="umidade">Umidade: 76%</p>
+        </div>
+    </div>
+</body>
+<script src="scrips.js"></script>
+
+</html>
